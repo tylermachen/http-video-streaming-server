@@ -1,0 +1,17 @@
+body {
+    background: #212121;
+    color: #efefef;
+    display: grid;
+    justify-items: center;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 1.4rem;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+    width: 64%;
+}

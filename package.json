@@ -1,0 +1,19 @@
+{
+  "name": "http-video-streaming-server",
+  "description": "Simple Node HTTP video streaming server",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:tylermachen/streaming-server.git",
+  "author": "Tyler C. Machen",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
