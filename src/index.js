@@ -2,7 +2,7 @@ import express from 'express';
 import fs from 'fs';
 import path from 'path';
 
-import {extractRangeFromHeader} from '../utils/extract-range-from-header.js';
+import {extractRangeFromHeader} from './utils/extract-range-from-header.js';
 import {VIDEO_CHUNK_BYTE_SIZE} from './constants.js';
 
 const app = express();
